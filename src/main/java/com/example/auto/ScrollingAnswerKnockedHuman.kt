@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class AnswerKnockedHuman : AppCompatActivity() {
+class ScrollingAnswerKnockedHuman : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_answer_knocked_human)
+        setContentView(R.layout.activity_scrolling_answer_knocked_human)
     }
     fun click_back(view: View){
         val intent = Intent(this, KnockedHuman::class.java)

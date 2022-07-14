@@ -11,7 +11,7 @@ class KnockedHuman : AppCompatActivity() {
         setContentView(R.layout.activity_knocked_human)
     }
     fun click_what_do(view: View){
-        val intent = Intent(this, AnswerKnockedHuman::class.java)
+        val intent = Intent(this,  ScrollingAnswerKnockedHuman::class.java)
         startActivity(intent)
     }
     fun click_back(view: View){
