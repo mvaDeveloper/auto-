@@ -5,21 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class TypeViolations : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_type_violations)
     }
-
-    fun click_emergency(view: View){
-        val intent = Intent(this, Emergency::class.java)
+    fun click_dtp(view: View){
+        val intent = Intent(this, BranchingDtp::class.java)
         startActivity(intent)
     }
-
-    fun click_helper(view: View){
+    fun click_back(view: View){
         val intent = Intent(this, Helper::class.java)
         startActivity(intent)
     }
-
-    fun click_home(view: View) {}
+    fun click_home(view: View){
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
 }
