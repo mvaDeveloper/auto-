@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">auto++</string>
+    <string name="text_help">Помощник</string>
+    <string name="text_emergency">Телефон экстренных служб</string>
+    <string name="text_data">Данные</string>
+    <string name="text_dictionary">Словарь терминов</string>
+    <string name="text_112">112</string>
+    <string name="text_app">Авто+</string>
+</resources>
