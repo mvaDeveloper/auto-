@@ -21,5 +21,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun click_home(view: View) {}
+    fun click_home(view: View) {
+
+    }
 }
